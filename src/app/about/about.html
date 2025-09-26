@@ -7,7 +7,12 @@
                 20.3.2. och utvecklingsmiljön
                 VSCode där jag använt mig av TypeScript, HTML och CSS. Jag har även använt mig av Git och GitHub för
                 versionshantering och lagring av koden.
-                Webbsidan publicerades på publik webbhosting via Netlify.</p>
+                Webbsidan publicerades på publik webbhosting via Netlify (när man refreshar sidan dock så försöker
+                webbläsaren
+                ladda den URL:en direkt från servern och då hittas inte filerna och det kommer upp ett felmeddelande.
+                Jag löste detta
+                genom att använda en _redirects-fil så att alla requests skickas till index.html där Angular tar över
+                routingen.).</p>
             <p>För att gå djupare in på utvecklingsprocessen så började jag med att skapa ett nytt Angular-projekt med
                 hjälp av CLI-verktyget och
                 som kommer med alla byggstenar. Eftersom uppgiften krävde flera undersidor skapade jag tre olika
