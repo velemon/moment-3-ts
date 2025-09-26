@@ -22,14 +22,23 @@ I den här uppgiften har jag skapat en reponsiv webbplats med temat konvertering
 
 ## Projektstruktur
 src/app/
+
 --- app.routes.ts # Routing
+
 --- home/ # Startsidan
+
 --- convert/ # Konverteringssidan
+
 ---about/ # Beskrivning av uppgiften
+
 --- info-card/ # Egen komponent för informationskort
+
  ...
+
 public/
+
 --- home.jpg... # Grafikfiler
+
 --- styles.css # Global styling
 
 ## Slutsats
