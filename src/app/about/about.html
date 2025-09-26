@@ -1,20 +1,58 @@
 <section class="about-box">
     <h1>About</h1>
     <div class="cards">
-        <app-info-card title="Mitt arbete"
-            content="Jag byggde denna applikation för att lära mig grunderna i Angular. Jag har använt router, komponenter och responsiv design. Uppgiften
-            har gjorts i [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2."
-            image="/length.jpg" alt="Measuring wood">
+        <app-info-card title="Mitt arbete" image="/length.jpg" alt="Measuring wood">
+            <p>Jag byggde denna applikation för att lära mig grunderna i Angular. Uppgiften
+                har gjorts i <a href="https://github.com/angular/angular-cli" target="_blank">[Angular CLI]</a> version
+                20.3.2. och utvecklingsmiljön
+                VSCode där jag använt mig av TypeScript, HTML och CSS. Jag har även använt mig av Git och GitHub för
+                versionshantering och lagring av koden.
+                Webbsidan publicerades på publik webbhosting via Netlify.</p>
+            <p>För att gå djupare in på utvecklingsprocessen så började jag med att skapa ett nytt Angular-projekt med
+                hjälp av CLI-verktyget och
+                som kommer med alla byggstenar. Eftersom uppgiften krävde flera undersidor skapade jag tre olika
+                komponenter som skulle bli startsidan,
+                konverteringssidan och en informationssida om mitt arbete. Navigeringen mellan dessa undersidor löste
+                jag med Angulars router-modul,
+                där jag definierade rutter i en separat routes-fil och kopplade dem till respektive komponent och gjorde
+                startsidan till Home-komponenten.
+                För att användaren enkelt skulle kunna röra sig mellan sidorna skapade jag en navigationsmeny i global i
+                den globala html filen och använde
+                routerLink för att länka till de olika sidorna.</p>
+            <p>När strukturen för sidorna var på plats började jag arbeta med innehållet. På startsidan lade jag in en
+                bild och faktatext som är kopplat
+                till uppgiftens tema (konvertering av värden). På konverteringssidan skapade jag funkionalitet för att
+                omvandla värden mellan meter och fot samt
+                mellan celsius och fahrenheit. Här använde jag Angulars databindning för att knyta inputfält till
+                variabler i komponentens kod och skapade metoder
+                som direkt räknar om värdena när användaren skriver. På informationssidan beskrev jag sedan hur jag
+                arbetat med uppgiften och vilka slutsatser jag dragit.</p>
+            <p>För att uppfylla kravet på att använda minst en egen komponent skapade jag dessutom en återanvändbar
+                kortkomponent som jag lade in på About-sidan.
+                Denna komponent kan ta emot data med rubrik, text och bild. Med mindre text kan taggen content användas
+                men radbrytning etc är inte möjlig och vid mycket
+                text användes ng-content tagg som i min slutgiliga lösning då det är mycket text på denna sida och mer
+                flexibel formatering.</p>
+            <p>När det gäller utseendet arbetade jag med både global CSS och komponentbaserad styling. Grundläggande
+                regler som typsnitt, bakgrund och färger lade jag i Angulars globala styles.css, medan mer specifika
+                regler
+                placerades i respektive komponent. Jag såg också till att webbplatsen blev responsiv genom att använda
+                flexbox,
+                media queries samt relativa mått så att innehållet anpassar sig efter skärmstorlekar.</p>
         </app-info-card>
 
-        <app-info-card title="Mina slutsatser"
-            content="Jag har lärt mig att Angulars struktur gör det enkelt att återanvända komponenter. Att använda inputs gör komponenterna flexibla."
-            image="/temperature.jpg" alt="Fire">
+        <app-info-card title="Mina slutsatser" image="/temperature.jpg" alt="Fire">
+            <p>Med den här uppgiften fått en tydligare förståelse för hur en Angular-applikation är uppbyggd, hur
+                komponenter, routing och databindning fungerar.
+                Jag har även lärt mig att Angulars struktur gör det enkelt att återanvända komponenter och hur viktig
+                det är med struktur för att underlätta
+                utveckling och underhåll. Det som gick lite sämre var att det finns många filer och (för mig) nya
+                funktioner vilket gjorde det lite förvirrande i början,
+                men med tid och övning så blir det lättare att förstå.</p>
         </app-info-card>
 
-        <app-info-card title="Vad jag vill lära mig mer om"
-            content="Jag vill lära mig mer om Angular och dess olika funktioner, såsom formulärhantering, tjänster och beroendeinjektion."
-            image="/code.jpg" alt="Code on screen">
+        <app-info-card title="Vad jag vill lära mig mer om" image="/code.jpg" alt="Code on screen">
+            <p>Jag vill lära mig mer och djupare om Angular och dess olika funktioner.</p>
         </app-info-card>
     </div>
 </section>
