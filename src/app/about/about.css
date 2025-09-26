@@ -1,0 +1,23 @@
+.about-box {
+    padding: 20px;
+    margin-bottom: 4em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-box {
+        justify-items: center;
+    }
+    .cards {
+        flex-direction: column;
+    }
+}

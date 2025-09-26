@@ -1,59 +1,24 @@
-# MyAngularApp
+# Programmering i Typescript - Moment 3
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+## Sammanfattning
+I den här uppgiften har jag skapat en reponsiv webbplats med temat konvertering av värden med hjälp av Angular i VSCode. På startsidan så finns det fakta om de enheter so konverteringen avser. Det finns även en undersida för konvertering av farenheit & celsius samt fot & meter som sköts med Angulars komponenter och databindning. Sista undersidan handlar om hur uppgiften är löst. 
 
-## Development server
+## Syfte/mål
+- Får en grundläggande förståelse för Angular och dess användning som ett ramverk för att skapa dynamiska och responsiva webbapplikationer.
+- Förstå hur en Angular-applikation konstrueras, och hur dess olika bitar interagerar med varandra.
+- Kunna använda CLI-verktyg för att testköra samt publicera optimerade filer.
 
-To start a local development server, run:
+## Funktionella krav
+- Skapa en Angular-webbplats med valfritt syfte och innehåll.
+- Inkludera minst tre undersidor.
+- Det ska finnas en undersida för konvertering av värden.
+- Minst en bild ska finnas på någon av undersidorna.
+- Implementera en navigationsmeny med Angulars router-modul.
+- Lägg till minst en komponent på en av undersidorna.
+- Använd CSS eller SCSS för webbplatsens styling med god struktur.
+- Skapa grundläggande global styling i Angular's styles.css-fil och specifika regler på komponentnivå.
+- Versionshantera källkoden med Git och publicera den färdiga webbplatsen på valfri webbhost.
+- Publicera den optimerade webbplatsen på en publikt tillgänglig webbhost.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Slutsats
+Uppgiften lärde mig grundläggande om hur Angular fungerar samt dess funktioner och struktur.

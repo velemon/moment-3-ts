@@ -1,0 +1,33 @@
+<div class="background-container">
+  <section class="convert-box">
+    <h1>Convert</h1>
+
+    <div class="converter">
+      <h2>Length: Meter ↔ Feet</h2>
+      <div class="inputs">
+        <label>
+          Meters:
+          <input type="number" [(ngModel)]="meters" (input)="convertMetersToFeet()" />
+        </label>
+        <label>
+          Feet:
+          <input type="number" [(ngModel)]="feet" (input)="convertFeetToMeters()" />
+        </label>
+      </div>
+    </div>
+
+    <div class="converter">
+      <h2>Temperature: Celsius ↔ Fahrenheit</h2>
+      <div class="inputs">
+        <label>
+          Celsius:
+          <input type="number" [(ngModel)]="celsius" (input)="convertCelsiusToFahrenheit()" />
+        </label>
+        <label>
+          Fahrenheit:
+          <input type="number" [(ngModel)]="fahrenheit" (input)="convertFahrenheitToCelsius()" />
+        </label>
+      </div>
+    </div>
+  </section>
+</div>

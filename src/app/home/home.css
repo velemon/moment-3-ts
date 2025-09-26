@@ -1,0 +1,36 @@
+.home-box {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 4em;
+}
+
+.home-content {
+    flex: 1;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.home-image {
+    object-fit: fill;
+    flex: 0 0 630px;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-box {
+        flex-direction: column;
+    }
+    .home-image {
+        flex: 1 1 auto;
+        width: 100%;}
+}
