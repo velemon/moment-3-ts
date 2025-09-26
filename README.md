@@ -22,15 +22,15 @@ I den här uppgiften har jag skapat en reponsiv webbplats med temat konvertering
 
 ## Projektstruktur
 src/app/
-├── app.routes.ts # Routing
-├── home/ # Startsidan
-├── convert/ # Konverteringssidan
-├── about/ # Beskrivning av uppgiften
-├── info-card/ # Egen komponent för informationskort
-└── ...
+- app.routes.ts # Routing
+- home/ # Startsidan
+- convert/ # Konverteringssidan
+- about/ # Beskrivning av uppgiften
+- info-card/ # Egen komponent för informationskort
+ ...
 public/
-└── home.jpg... # Grafikfiler
-└── styles.css # Global styling
+- home.jpg... # Grafikfiler
+- styles.css # Global styling
 
 ## Slutsats
 Uppgiften lärde mig grundläggande om hur Angular fungerar samt dess funktioner och struktur.
